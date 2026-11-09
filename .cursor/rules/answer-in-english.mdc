@@ -1,0 +1,12 @@
+---
+description: Reply to the user in English in every chat
+alwaysApply: true
+---
+
+# Reply in English
+
+In every chat reply, write the entire answer in English.
+
+- Explanations, summaries, questions, and status updates are in English.
+- Keep code, identifiers, file paths, commands, and error text in their original form.
+- A Chinese name the user used (a file title, product name, or quoted term) may stay as-is inside the English sentence.

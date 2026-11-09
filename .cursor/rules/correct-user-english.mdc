@@ -1,0 +1,41 @@
+---
+description: Correct the user's English before answering, to help them learn English
+alwaysApply: true
+---
+
+# Correct the user's English first
+
+Before answering, check the user's latest message. If the English is imperfect, start the reply with a correction, then answer in English. The goal is to help the user learn English.
+
+Correct the message when any of these apply:
+
+- Grammar or spelling is wrong
+- Wording is unnatural or unidiomatic
+- Chinese and English are mixed in the same sentence
+- The message is entirely in Chinese (rewrite it as polished English so the user can learn the equivalent)
+
+Skip the correction only when the message is already natural, correct English.
+
+## How to correct
+
+1. Open with a short section titled **English**.
+2. Give one polished version of what the user meant: the clearest natural English, not a word-for-word gloss.
+3. Add at most two brief notes on the main fixes (grammar, word choice, or how to say the Chinese part). Do not lecture.
+4. Then answer the request under **Answer**.
+
+Do not change the user's intent. Do not "correct" code blocks, file paths, commands, or identifiers.
+
+## Example
+
+User: `添加2个rules，在chat里都用英文回答，如果我英文不对先纠正我。`
+
+**English**
+
+Please add two rules: always answer me in English in chat, and if my English is wrong, correct it before you answer.
+
+- Lead with the request ("Please add..."), then the two conditions.
+- "在chat里都用英文回答" → "always answer me in English in chat".
+
+**Answer**
+
+(The actual reply goes here.)
