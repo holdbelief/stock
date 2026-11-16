@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-16",
+  "as_of": "2026-11-16T09:25:00+08:00",
+  "session": "opening_match",
+  "decision": "cash",
+  "recommend": [],
+  "reason": "Shanghai opened 3611.54, 53.80 points under 3665.34, the close that would sit on Monday's MA20. Friday's close was already 34.26 points under Friday's MA20, and the 34-ETF sheet is still a 125.82亿元 redemption. The open is not a low turning point.",
+  "opening_match": {
+    "shanghai": 3611.54,
+    "shanghai_pct": -0.63,
+    "monday_ma20_if_close_equals": 3665.34,
+    "chinext": 2395.52,
+    "star50": 1254.48,
+    "sse50": 2750.55,
+    "csi300": 3984.77,
+    "shenzhen": 10881.91,
+    "000725": 4.28
+  },
+  "last_bar": "2026-11-13",
+  "reference_prices": {
+    "000001.SH": 3634.35,
+    "000300.SH": 4016.29,
+    "399001.SZ": 10968.79,
+    "399006.SZ": 2426.08,
+    "000688.SH": 1279.66,
+    "000016.SH": 2775.02
+  },
+  "shanghai": {
+    "close": 3634.35,
+    "open": 3658.72,
+    "high": 3669.44,
+    "low": 3623.84,
+    "prev_close": 3655.83,
+    "ma20": 3668.61,
+    "gap_vs_ma20": -34.26,
+    "high_minus_ma20": 0.83,
+    "ma5": 3659.07,
+    "ma10": 3656.67,
+    "ma60": 3817.70,
+    "rsi14": 39.79,
+    "kdj_k": 59.84,
+    "kdj_d": 62.41,
+    "kdj_j": 54.70,
+    "macd_dif": -38.42,
+    "macd_dea": -45.75,
+    "macd_hist": 14.66,
+    "macd_hist_prev": 18.05,
+    "boll_upper": 3738.98,
+    "boll_lower": 3598.25,
+    "boll_pct_b": 0.257,
+    "amount_yi": 7706.14,
+    "amount_vs_prior_5": 1.029,
+    "volume_ratio_tencent": 1.05,
+    "pe_tencent_ttm": 16.55,
+    "pos_120": 0.096,
+    "low_2026_11_03": 3580.38,
+    "close_2026_11_03": 3608.10
+  },
+  "invalidation": "Shanghai close below 3580.38 that the next session does not reclaim.",
+  "reentry_requires": [
+    "Shanghai close back above that session's MA20",
+    "MACD histogram still positive",
+    "KDJ-J no longer pressing 80",
+    "The following session holds above its own MA20",
+    "34-ETF sheet, same book, no longer a redemption day"
+  ],
+  "national_team": {
+    "source": "https://wwww1998.github.io/national-team-etf-flow/",
+    "data_date": "20261113",
+    "updated": "2026-11-15 20:07",
+    "etf_count": 34,
+    "day_yi": -125.82,
+    "five_day_yi": -387.25,
+    "twenty_one_day_yi": 4087.81,
+    "ytd_yi": -11107.28,
+    "like_for_like_prior_day_yi": -204.21,
+    "groups_day_yi": {
+      "csi300": -10.46,
+      "chinext": 11.93,
+      "star50": -10.53,
+      "csi_a500": -23.77,
+      "csi1000": -62.60,
+      "sse50": -6.17,
+      "csi500": -23.62
+    },
+    "lines_day_yi": {
+      "510300": -7.95,
+      "510310": -0.54,
+      "510330": -4.34,
+      "159919": -4.65,
+      "515330": 7.02,
+      "510050": -5.73,
+      "512100": -37.98,
+      "159845": -13.62,
+      "588000": -12.27,
+      "588080": 1.30,
+      "159915": 10.18
+    },
+    "huijin_latest_increase_notice": "2025-04-07",
+    "huijin_2026_latest_item": "2026-10-09 fraud warning",
+    "caveat": "Share changes are all holders, not detected Huijin tickets."
+  },
+  "overnight": {
+    "as_of": "2026-11-16T09:04:27+08:00",
+    "sina_futures_vs_prior_settle": {
+      "ES": {"last": 7588.05, "prior": 7583.00, "pct": 0.07},
+      "NQ": {"last": 28052.76, "prior": 28034.75, "pct": 0.06},
+      "YM": {"last": 52433.29, "prior": 52418.00, "pct": 0.03},
+      "WTI": {"last": 88.221, "prior": 88.560, "pct": -0.38},
+      "Brent": {"last": 95.284, "prior": 95.840, "pct": -0.58},
+      "COMEX_gold": {"last": 3866.95, "prior": 3886.30, "pct": -0.50}
+    },
+    "nikkei_090023_cst": {"last": 60700.11, "pct": -0.72, "open": 61348.21, "high": 61389.35, "low": 60495.27, "prev": 61142.35},
+    "japan_gdp_q3_annualized": -0.001,
+    "a50_cn00y": "12830 unchanged versus previous 12830 at 09:01 CST, Friday range 12871/12810; not treated as a Monday session"
+  },
+  "holdings_reported_by_user": [
+    {
+      "code": "000725",
+      "name": "京东方A",
+      "cost": 4.513,
+      "quantity": null,
+      "reported": "2026-11-09T14:29:00+08:00",
+      "plan": "Open printed 4.28. That was the sell, about -5.16% per share versus cost 4.513. If missed, sell the 09:30 continuation. A bounce that cannot hold 4.30 is the exit. Do not buy it back."
+    }
+  ],
+  "prior_recommendations": [],
+  "prior_cash_calls_right_through": "2026-11-13",
+  "watched_not_bought": {
+    "601669": {"friday_close": 4.38, "down_closes": 7},
+    "600958": {"friday_close": 8.12, "down_closes": 4},
+    "002179": {"friday_close": 33.78, "friday_high": 34.67}
+  }
+}
